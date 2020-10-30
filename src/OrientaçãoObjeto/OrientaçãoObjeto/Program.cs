@@ -6,9 +6,12 @@ namespace OrientaçãoObjeto
     {
         static void Main(string[] args)
         {
-            Carro c = new Carro("preto",2009);
+            Casa e = new Casa(2000);
 
-            Console.WriteLine(c.pagaIpva());
+            Console.WriteLine(e.pagaIptu());
+
+            Casa e1 = new Casa(1000);
+            Console.WriteLine(e.pagaIptu());
         }
     }
 }
