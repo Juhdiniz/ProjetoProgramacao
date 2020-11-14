@@ -7,17 +7,23 @@ namespace OrientaçãoObjeto
         static void Main(string[] args)
         {
             
-            Casa e = new Casa(2000);
+            Quarto a1= new Quarto(100,50);
 
+            Quarto a2 = new Quarto(2,50);
+
+            Espaço c1 = new Espaço(2, 50);
+            Banheiro K1 = new Banheiro(2, 50);
+
+            Console.WriteLine(K1.Espaçoquadrodo());
 
            
 
-            Casa e1 = new Casa(1000);
+            
 
 
             
 
-            Console.WriteLine(Casa.pagaIptu());
+            
             
 
             

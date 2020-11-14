@@ -12,12 +12,15 @@ namespace OrientaçãoObjeto
         
         public  double Iptu;
         public double dobraCasa;
+        Quarto a2; 
         
         public Casa(int tamanhoCasa)
         {
             tamanho = tamanhoCasa;
             Iptu = tamanho * 1000 * alicota;
             iptutotal = Iptu + iptutotal;
+
+             a2 = new Quarto(2, 50);
 
         }
 
