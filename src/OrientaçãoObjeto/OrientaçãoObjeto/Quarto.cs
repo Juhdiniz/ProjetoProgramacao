@@ -10,7 +10,7 @@ namespace OrientaçãoObjeto
         
         public int tamanhoquardado;
 
-        public Quarto(int larguraQuarto, int comprimentoQuarto) : base(larguraQuarto,comprimentoQuarto)
+        public Quarto(int larguraQuarto, int comprimentoQuarto) : base (larguraQuarto,comprimentoQuarto)
         {
           
         }
